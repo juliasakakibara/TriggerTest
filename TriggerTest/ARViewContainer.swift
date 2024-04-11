@@ -44,7 +44,7 @@ struct ARViewContainer: UIViewRepresentable {
         let arView = ARView(frame: .zero, cameraMode: .ar, automaticallyConfigureSession: true)
         
         arView.enableTapGesture()
-      //  arView.environment.lighting.intensityExponent = 1
+        arView.environment.lighting.intensityExponent = 1
         
         //let experience = ARExperience.load(named: "WWDCTest")
        // experience.notificat
